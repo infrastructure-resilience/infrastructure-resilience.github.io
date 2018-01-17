@@ -8,36 +8,38 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Infrastructure Resilience</title>
+  <title>Infrastructure Resilience Project</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/agency.css" rel="stylesheet">
+  <link href="css/creative.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Infrastructure Resilience</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fa fa-bars"></i>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
@@ -55,29 +57,36 @@
     </div>
   </nav>
 
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-heading">Infrastructure Resilience Optimization for Climate Adaptation</div>
-       
-        <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="http://www.dataforclimateaction.org/meet-the-winners/">Data for Climate Action Challenge Winner</a> -->
+  <header class="masthead text-center text-white d-flex">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h1 class="text-uppercase">
+            <strong>Infrastructure Resilience Optimization for Climate Adaptation</strong>
+          </h1>
+          <hr>
+        </div>
+        <div class="col-lg-8 mx-auto">
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Data for Climate Action Challenge Winner</a>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- About -->
-  <section id="about">
-    <div class="container">
 
-      <div class="row mb-5">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">
-            Developing and maintaining resilient infrastructure is a key strategy for meeting several UN sustainable development goals. However, global climate change will cause widespread disruption and damage to infrastructure systems, for instance due to high intensity flooding events. Our work aims to aid the development of climate resilient road infrastructure by linking together three computational modules.
-          </h3>
+  <!-- About -->
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12 mx-auto">
+          <h2 class="section-heading text-white">About</h2>
+          <hr class="light my-4">
+          <p class="text-faded mb-4">Developing and maintaining resilient infrastructure is a key strategy for meeting several UN sustainable development
+            goals. However, global climate change will cause widespread disruption and damage to infrastructure systems,
+            for instance due to high intensity flooding events. Our work aims to aid the development of climate resilient
+            road infrastructure by linking together three computational modules.</p>
         </div>
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-12 mx-auto mb-5">
           <img src="img/senegal_roads.png" style="width:30%;border:2px solid #aaaaaa;" />
           <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
           <img src="img/senegal_rp_100.png" style="width:30%;border:2px solid #aaaaaa;" />
@@ -85,106 +94,165 @@
           <img src="img/senegal_roads_flooded_rp_100.png" style="width:30%;border:2px solid #aaaaaa;" />
         </div>
       </div>
-
       <div class="row text-center">
-        <div class="col-lg-12 text-center">
-          <h3 class="section-heading text-uppercase mb-4">Computational Modules</h3>
+        <div class="col-lg-12 mx-auto mt-4">
+          <h3 class="section-heading text-white">Computational Modules</h3>
+          <hr class="light my-4">
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-tint fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Risk Computation</h4>
-          <p class="text-muted">Combines a flood risk model and GIS data to determine which parts of a road network will be exposed to flooding under different scenarios.</p>
+          <h4 class="text-white">Risk Computation</h4>
+          <p class="text-faded">Combines a flood risk model and GIS data to determine which parts of a road network will be exposed to flooding
+            under different scenarios.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-car fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Mobility Impacts</h4>
-          <p class="text-muted">Quantifies accessibility provided by the available road network in terms of metrics such as average trip distance and number of infeasible trips.</p>
+          <h4 class="text-white">Mobility Impacts</h4>
+          <p class="text-faded">Quantifies accessibility provided by the available road network in terms of metrics such as average trip distance
+            and number of infeasible trips.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Resilience Optimization</h4>
-          <p class="text-muted">Prioritizes roads to fortify given a finite budget for upgrades such that the loss of mobility due to flooding is minimized.</p>
+          <h4 class="text-white">Resilience Optimization</h4>
+          <p class="text-faded">Prioritizes roads to fortify given a finite budget for upgrades such that the loss of mobility due to flooding
+            is minimized.</p>
         </div>
       </div>
     </div>
   </section>
+
 
   <!-- Results -->
-  <section class="bg-light" id="results">
+  <section id="results" class="bg-secondary">
     <div class="container">
+
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Results</h2>
-          <h3 class="section-subheading text-muted">Paragraph describing what these are, i.e. from the first paper...</h3>
+          <h2 class="section-heading">Results</h2>
+          <hr class="my-4">
+          <p class="mb-4">Paragraph describing what these are, i.e. from the first paper...</p>
         </div>
       </div>
 
-      <div class="row mb-5">
-        <div class="col-md-6 portfolio-item">
+      <div class="row">
+
+        <div class="col-md-12">
+
+          <div id="accordion" role="tablist" aria-multiselectable="true">
+
+            <!-- Card 1 -->
+            <div class="card">
+              <div class="card-header" role="tab" id="headingOne">
+                <h5 class="mb-0">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Increase in travel distance due to flooding
+                  </a>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="card-block" style="padding: 25px;">
+
+                  <div class="row">
+                    <div class="col-lg-6 text-center">
+                      <img class="img-fluid" src="img/distance_from_dakar.gif" alt="" style="border:2px solid #aaaaaa;">
+                      <h4>Dakar</h4>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                      <img class="img-fluid" src="img/distance_from_tambacounda.gif" alt="" style="border:2px solid #aaaaaa;">
+                      <h4>Tambacounda</h4>
+                    </div>
+                    <div class="col-lg-12">
+                      <p>GIFs showing worsening accessibility from Dakar and Tambacounda under increasing flood intensities. Update
+                        this description accordingly.</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+              <div class="card-header" role="tab" id="headingTwo">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Road improvements
+                  </a>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="card-block" style="padding: 25px;">
+
+                  <div class="row">
+                    <div class="col-lg-6 text-center">
+                      <img class="img-fluid" src="img/result_dakar.gif" alt="" style="border:2px solid #aaaaaa;">
+                      <h4>Dakar</h4>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                      <img class="img-fluid" src="img/result_tambacounda.gif" alt="" style="border:2px solid #aaaaaa;">
+                      <h4>Tambacounda</h4>
+                    </div>
+                    <div class="col-lg-12">
+                      <p>GIFs number_infeasible_trips.</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div> <!-- End card 2 -->
+
+          </div> <!-- End accordion -->
+        </div> <!-- End column 12 -->
+      </div> <!-- End row -->
+
+      <!-- <div class="row">
+        <div class="col-lg-6 text-center">
           <img class="img-fluid" src="img/distance_from_dakar.gif" alt="" style="border:2px solid #aaaaaa;">
-          <div class="portfolio-caption text-center">
-            <h4>Dakar</h4>
-            <!-- <p class="text-muted">GIFs showing worsening accessibility from Dakar and Tambacounda under increasing flood intensities?</p> -->
-          </div>
+          <h4>Dakar</h4>
         </div>
-        <div class="col-md-6 portfolio-item">
+        <div class="col-lg-6 text-center">
           <img class="img-fluid" src="img/distance_from_tambacounda.gif" alt="" style="border:2px solid #aaaaaa;">
-          <div class="portfolio-caption text-center">
-            <h4>Tambacounda</h4>
-            <!-- <p class="text-muted">Illustration</p> -->
-          </div>
+          <h4>Tambacounda</h4>
         </div>
-        <p class="text-muted">GIFs showing worsening accessibility from Dakar and Tambacounda under increasing flood intensities. Update this description accordingly.</p>
-        <!-- <div class="col-md-4 portfolio-item">
-          <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-          <div class="portfolio-caption text-center">
-            <h4>Threads</h4>
-            <p class="text-muted">Illustration</p>
-          </div>
-        </div> -->
+        <div class="col-lg-12">
+          <p>GIFs showing worsening accessibility from Dakar and Tambacounda under increasing flood intensities. Update this
+            description accordingly.</p>
+        </div>
       </div>
 
-
-      <div class="row mt-5">
-        <div class="col-md-6 portfolio-item">
+      <div class="row">
+        <div class="col-lg-6 text-center">
           <img class="img-fluid" src="img/result_dakar.gif" alt="" style="border:2px solid #aaaaaa;">
-          <div class="portfolio-caption text-center">
-            <h4>Dakar</h4>
-            <!-- <p class="text-muted">GIFs showing worsening accessibility from Dakar and Tambacounda under increasing flood intensities?</p> -->
-          </div>
+          <h4>Dakar</h4>
         </div>
-        <div class="col-md-6 portfolio-item">
+        <div class="col-lg-6 text-center">
           <img class="img-fluid" src="img/result_tambacounda.gif" alt="" style="border:2px solid #aaaaaa;">
-          <div class="portfolio-caption text-center">
-            <h4>Tambacounda</h4>
-            <!-- <p class="text-muted">Illustration</p> -->
-          </div>
+          <h4>Tambacounda</h4>
         </div>
-        <p class="text-muted">GIFs number_infeasible_trips.</p>
-      </div>
-
+        <div class="col-lg-12">
+          <p>GIFs number_infeasible_trips.</p>
+        </div>
+      </div> -->
 
     </div>
   </section>
+
 
   <!-- Papers -->
   <section id="papers">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Papers</h2>
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Papers</h2>
+          <hr class="my-4">
         </div>
       </div>
-
       <div class="row">
         <div class="col-lg-3 ml-auto text-center">
           <a href="resources/d4ca-2017-predicting.pdf" target="_blank">
@@ -204,145 +272,84 @@
           </p>
         </div>
       </div>
-
     </div>
   </section>
 
+
   <!-- Team -->
-  <section class="bg-light" id="team">
+  <section id="team" class="bg-primary text-white">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Team</h2>
+          <h2 class="section-heading">Team</h2>
+          <hr class="light my-4">
         </div>
       </div>
+    </div>
+    <div class="container">
       <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/amrita.png" alt="">
-
-            <h4><a href="http://www.cc.gatech.edu/~agupta375/" target="_blank" style="color:inherit;text-decoration:none;">Amrita Gupta</a></h4>
-            <div class="text-muted">Graduate Student</div>
-            <div class="text-muted">agupta375@gatech.edu</div>
-
+        <div class="col-lg-4 col-sm-12 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <a href="http://www.cc.gatech.edu/~agupta375/" target="_blank">
+              <img src="img/amrita.png" class="mb-3" style="width:90%;">
+            </a>
+            <a href="http://www.cc.gatech.edu/~agupta375/" target="_blank">
+              <h3 class="mb-3">Amrita Gupta</h3>
+            </a>
+            <p class="mb-0">
+              PhD Student
+              <br> agupta375@gatech.edu
+            </p>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/caleb.png" alt="">
-
-            <h4><a href="http://calebrob.com" target="_blank" style="color:inherit;text-decoration:none;">Caleb Robinson</a></h4>
-            <div class="text-muted">Graduate Student</div>
-            <div class="text-muted">dcrobins@gatech.edu</div>
-
+        <div class="col-lg-4 col-sm-12 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <a href="http://calebrob.com/" target="_blank">
+              <img src="img/caleb.png" class="mb-3" style="width:90%;">
+            </a>
+            <a href="http://calebrob.com/" target="_blank">
+              <h3 class="mb-3">Caleb Robinson</h3>
+            </a>
+            <p class="mb-0">
+              PhD Student
+              <br> dcrobins@gatech.edu
+            </p>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/bistra.png" alt="">
-
-            <h4><a href="http://www.cc.gatech.edu/~bdilkina/" target="_blank" style="color:inherit;text-decoration:none;">Bistra Dilkina</a></h4>
-            <div class="text-muted">Assistant Professor</div>
-            <div class="text-muted">bdilkina@cc.gatech.edu</div>
-
+        <div class="col-lg-4 col-sm-12 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <a href="https://www.cc.gatech.edu/~bdilkina/" target="_blank">
+              <img src="img/bistra.png" class="mb-3" style="width:90%;">
+            </a>
+            <a href="https://www.cc.gatech.edu/~bdilkina/" target="_blank">
+              <h3 class="mb-3">Bistra Dilkina</h3>
+            </a>
+            <p class="mb-0">
+              Assistant Professor
+              <br> bdilkina@gatech.edu
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Clients -->
-  <section class="py-5">
+  <section>
     <div class="container">
       <div class="row">
-
         <div class="offset-md-3 col-md-3">
           <div class="mr-4">
-            <img class="img-fluid d-block mx-auto" src="img/logos/gatech.png" alt="">
+            <img class="img-fluid" src="img/logos/gatech.png" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="ml-4">
-            <img class="img-fluid d-block mx-auto" src="img/logos/global-pulse.jpg" alt="">
+            <img class="img-fluid" src="img/logos/global-pulse.jpg" alt="">
           </div>
         </div>
-
       </div>
     </div>
   </section>
-
-  <!-- Portfolio Modals -->
-
-  <!-- Modal 1 -->
-  <!--
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    -->
-
-  <!-- Modal 2 -->
-  <!--
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -350,9 +357,11 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/agency.js"></script>
+  <script src="js/creative.js"></script>
 
 </body>
 
